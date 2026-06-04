@@ -36,9 +36,11 @@
       "endDate": "2022-09",
       "isCurrent": false,
       "summary": "Data architecture, designed and implemented centralized data model and accelerators, with data quality checks and cross-country harmonization for global healthcare clients.",
-      "details": "",
+      "details": "Designed and implemented an all-purpose Commercial data model and improved the data management tool to standardize more than 600 data sources from diverse domains like Sales, Customer Engagement, and Market data. Implementation of data quality checks, standardized cross-country harmonization (territory assignment, market definition, products, accounts, row-level security) and GDPR compliant using SQL Server, Snowflake and AWS S3. Implemented dashboards in Power BI and Tableau for global healthcare clients, supporting diverse business requirements and data sources.",
       "achievements": [
-        ""
+        "Building a comprehensive Commercial data model and transformation accelerators that became company standards, leveraged in more than 30 projects since",
+        "Shaped the CI/CD pipeline and enforced DevOps best practices across multiple projects, improving deployment reliability and reducing manual errors",
+        "Designed and implemented data quality checks and cross-country harmonization solutions for global healthcare clients, ensuring data consistency and compliance"
       ],
       "technologies": ["SQL Server", "Snowflake", "Python", "dbt", "Power BI", "Tableau"]
     },
@@ -52,11 +54,11 @@
       "summary": "Designed and implemented Salesforce Effectiveness dashboards and data harmonization systems for multiple international customers.",
       "details": "Developed enterprise data solutions and dashboards for pharmaceutical and healthcare organizations:\n\n* Salesforce Effectiveness Dashboards: Designed and implemented cross-country harmonization solutions (Veeva CRM, market sales) in Power BI and Tableau for multiple customers.\n\n* Data Harmonization System: Created standardized and reusable medallion data model, ETL pipelines, and master data development using Microsoft SSIS and SQL Server Master Data Services.\n\n* International Market Analysis: Built reporting systems for multiple customers supporting diverse business requirements and data sources.",
       "achievements": [
-        "Delivered Salesforce Effectiveness solutions for multiple international customers",
+        "Delivered Salesforce Effectiveness analytical solutions for multiple international customers",
         "Created standardized medallion data model reused across multiple engagements",
         "Implemented enterprise-scale data harmonization systems"
       ],
-      "technologies": ["Microsoft SSIS", "Microsoft SSAS", "Power BI", "Tableau", "SQL Server"]
+      "technologies": ["Microsoft SSIS", "Microsoft SSAS", "Power BI", "Tableau", "SQL Server", "PHP"]
     },
     {
       "id": "exp-4",
@@ -144,14 +146,14 @@
       "name": "Linux & Containerization",
       "category": "DevOps",
       "proficiency": 4,
-      "details": "Advanced Linux server administration, Docker containerization, networking, and hosting platforms."
+      "details": "Advanced Linux server administration, Docker containerization, virtual networking, reverse proxies, SSL encapsulation and hosting platforms."
     },
     {
       "id": "skill-6",
       "name": "CI/CD & IaC",
       "category": "DevOps",
       "proficiency": 3,
-      "details": "Expertise in GitLab CI/CD, DevOps toolkit, and infrastructure-as-code principles."
+      "details": "Experienced with GitLab CI/CD, DevOps toolkit, and infrastructure-as-code principles."
     },
     {
       "id": "skill-7",
@@ -161,21 +163,35 @@
       "details": "Experienced with Power BI and Tableau for enterprise analytics and self-service business intelligence. Designed dashboards for executive and operational audiences."
     },
     {
+      "id": "skill-7",
+      "name": "Semantic Layers",
+      "category": "Analytics",
+      "proficiency": 3,
+      "details": "Experienced with SSAS cubes, Power BI semantic models and Snowflake semantic views, delivering AI-ready and analytical-ready data products."
+    },
+    {
       "id": "skill-8",
       "name": "Generative AI",
       "category": "AI/ML",
       "proficiency": 3,
-      "details": "Expertise in Azure OpenAI integration, prompt engineering, and RAG (Retrieval-Augmented Generation) architectures. Created LLM-assisted code generation frameworks."
+      "details": "Expertise in prompt engineering, and RAG (Retrieval-Augmented Generation) architectures. Created LLM-assisted code generation frameworks."
     },
     {
       "id": "skill-9",
+      "name": "Azure OpenAI",
+      "category": "AI/ML",
+      "proficiency": 3,
+      "details": "Proficient in Azure OpenAI integration for GenAI solutions, leveraging Azure Foundry, Cognitive Search."
+    },
+    {
+      "id": "skill-10",
       "name": "ETL & Data Integration",
       "category": "Data Platform",
       "proficiency": 4,
       "details": "Expert in designing and implementing complex ETL pipelines using SSIS, dbt, Informatica, and Spark. Proficient in automated data mapping and transformation."
     },
     {
-      "id": "skill-10",
+      "id": "skill-11",
       "name": "Enterprise Architecture",
       "category": "Architecture",
       "proficiency": 4,
@@ -187,7 +203,7 @@
       "id": "soft-1",
       "name": "Team Leadership",
       "category": "Leadership",
-      "proficiency": 4,
+      "proficiency": 3,
       "details": "Led technical teams of up to 15 developers across international projects, setting direction, resolving blockers, and ensuring delivery quality."
     },
     {
@@ -195,13 +211,13 @@
       "name": "Mentoring",
       "category": "Leadership",
       "proficiency": 4,
-      "details": "Mentored 2 junior architects and multiple developers, accelerating their growth through structured feedback and pairing on complex challenges."
+      "details": "Mentored 2 junior architects and multiple developers, accelerating their growth through structured feedback and pairing on complex challenges with excellent feedback from mentees. Created impactful learning experiences and growth plans, resulting in faster ramp-up and improved performance."
     },
     {
       "id": "soft-3",
       "name": "Client Management",
       "category": "Consulting",
-      "proficiency": 4,
+      "proficiency": 3,
       "details": "16 years engaging directly with senior stakeholders across Life Sciences. Skilled at managing expectations, translating business needs to technical solutions, and building long-term trust."
     },
     {
@@ -220,69 +236,105 @@
     },
     {
       "id": "soft-6",
+      "name": "Curiosity",
+      "category": "Analytical",
+      "proficiency": 4,
+      "details": "Passionate about learning new technologies and approaches, with a track record of quickly mastering emerging tools and applying them to solve real-world problems. This curiosity drives me outside of business hours and work on my personal home automation and homelab systems."
+    },
+    {
+      "id": "soft-7",
       "name": "Communication",
       "category": "Interpersonal",
       "proficiency": 4,
       "details": "Fluent in translating technical concepts for executive audiences and business concepts for engineering teams. Comfortable with presentations, written deliverables, and facilitation."
     },
     {
-      "id": "soft-7",
+      "id": "soft-8",
+      "name": "Listen & Action",
+      "category": "Interpersonal",
+      "proficiency": 3,
+      "details": "Strong ability to listen to client needs, team feedback, and project realities, and take decisive action to adjust plans, resolve issues, and ensure successful outcomes."
+    },
+    {
+      "id": "soft-9",
       "name": "Adaptability",
       "category": "Interpersonal",
       "proficiency": 3,
       "details": "Thrives in fast-changing project environments across diverse industries, technologies, and team compositions."
+    },
+    {
+      "id": "soft-10",
+      "name": "Collaboration",
+      "category": "Interpersonal",
+      "proficiency": 3,
+      "details": "Believes in the power of collaboration to achieve better outcomes. Skilled at fostering a collaborative team culture and working effectively with cross-functional teams."
+    },
+    {
+      "id": "soft-11",
+      "name": "Ownership",
+      "category": "Interpersonal",
+      "proficiency": 4,
+      "details": "Takes full responsibility for outcomes, driving initiatives forward with a strong sense of accountability and commitment."
     }
   ],
   "projects": [
     {
       "id": "proj-1",
       "name": "GenAI Medical Chatbot",
-      "description": "End-to-end technical solution design for medical professionals using Azure OpenAI with RAG architecture",
-      "technologies": ["Azure OpenAI", "Azure Container Apps", "Azure Search", "Python", "RAG"],
-      "details": "Architected and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. Solution features cloud-native architecture with Application Gateway, Azure Container Apps, RAG with Azure Search, and managed vnets.\n\nKey Achievements:\n• Deployed to 3 countries with 200+ active users\n• 99.9% uptime SLA\n• Sub-second response times\n• Regulatory compliance with healthcare requirements"
+      "description": "End-to-end technical solution design for medical professionals using Azure OpenAI with RAG architecture.",
+      "technologies": ["Azure OpenAI", "Azure Container Apps", "Cognitive Search", "Python", "RAG"],
+      "details": "Architected, implemented and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. Solution features cloud-native architecture with Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n#### Key Achievements:\n* Deployed to 3 countries with 200+ active users\n* 99.9% uptime SLA\n* Sub-second response times\n* Regulatory compliance with healthcare requirements and GDPR"
     },
     {
       "id": "proj-2",
       "name": "LLM-Assisted Code Generation",
-      "description": "Framework and hosting platform accelerating team delivery by 80%",
+      "description": "Code generation framework and hosting platform accelerating team delivery by 80%.",
       "technologies": ["Azure OpenAI", "Python", "Docker", "GitLab CI/CD"],
-      "details": "Designed and implemented comprehensive framework for LLM-assisted code generation with templates, gateways, and automated deployment. Platform includes Docker containerization and GitLab CI/CD integration.\n\nBusiness Impact:\n• 80% reduction in code generation time\n• Standardized development patterns\n• Faster developer onboarding\n• Improved code quality"
+      "details": "Designed and implemented comprehensive framework for LLM-assisted code generation with templates, gateways, and automated deployment. Platform includes Docker containerization and GitLab CI/CD integration.\n\n#### Business Impact:\n* 80% reduction in code generation time\n* Standardized development patterns across the teams\n* Faster developer onboarding\n* Improved code quality\n* Best practices and stack recommendations\n* Modular and integrated in the company ecosystem"
     },
     {
       "id": "proj-3",
       "name": "Data Management Tool",
-      "description": "Comprehensive Python tool for data profiling, quality, and GenAI-assisted exploration",
-      "technologies": ["Python", "Databricks", "Snowflake", "GenAI"],
-      "details": "Built end-to-end data management tool providing data profiling, schema generation, integrity checks, multi-stack ingestion, metadata tracking, and GenAI-assisted exploration.\n\nKey Features:\n• Automated data quality profiling\n• Schema generation from samples\n• Multi-platform ingestion\n• GenAI-powered data mapping\n• Complete metadata tracking"
+      "description": "Comprehensive Python tool for data profiling, quality, and GenAI-assisted exploration.",
+      "technologies": ["Python", "React", "Databricks", "Snowflake", "GenAI"],
+      "details": "End-to-end built of a Python data management tool providing data profiling, schema generation, integrity checks, multi-stack ingestion, metadata tracking, and GenAI-assisted exploration.\n\n#### Key Features:\n* Automated data quality profiling\n* Schema generation from samples\n* Multi-platform ingestion pipelines\n* GenAI-powered data mapping and metadata generation\n* Complete metadata tracking"
     },
     {
       "id": "proj-4",
       "name": "Commercial Data Hub",
-      "description": "Enterprise platform supporting 60 countries and 2,000+ users integrating Veeva, SAP, and market sales",
+      "description": "Enterprise platform based on Snowflake supporting more than 600 data sources across 60 countries and 2,000+ users integrating Veeva, SAP, and market sales.",
       "technologies": ["Snowflake", "Snowflake Share", "Power BI", "dbt"],
-      "details": "Architected comprehensive Commercial data hub for global organization supporting 60 countries. Integrated Veeva CRM, SAP sales, market data, and territory assignments. Platform serves as trusted data foundation for 2,000+ users.\n\nArchitecture:\n• Multi-country data harmonization\n• Federated data sharing\n• Self-service analytics\n• Territory management"
+      "details": "Architected comprehensive Commercial data hub for global organization supporting 60 countries. Integrated Veeva CRM, SAP sales, market data, and territory assignments. Platform serves as trusted data foundation for 2,000+ users.\n\n#### Business Impact:\n* Multi-country data harmonization\n* Federated data sharing\n* Self-service analytics\n* Territory management"
     },
     {
       "id": "proj-5",
       "name": "Snowflake & Databricks Accelerators",
-      "description": "Standardized data models and frameworks reused in 15+ projects, reducing time by 25%",
+      "description": "Standardized data models and frameworks reused in 15+ projects, reducing time by 25%.",
       "technologies": ["Snowflake", "Databricks", "dbt", "SQL"],
-      "details": "Designed reusable accelerators with standardized Commercial data model and cross-country harmonization. Reduced ingestion and transformation time by ~25% across 15+ projects.\n\nComponents:\n• Medallion architecture templates\n• Standardized data models\n• Automated harmonization\n• Territory assignment logic"
+      "details": "Designed reusable accelerators with standardized Commercial data model and cross-country harmonization. Reduced ingestion and transformation time by ~25% across 15+ projects.\n\n#### Components:\n* Medallion architecture templates\n* Standardized data models\n* Automated harmonization\n* Comprehensive quality checks framework\n* Territory assignment and Market definition logic"
     },
     {
       "id": "proj-6",
       "name": "Salesforce Effectiveness Dashboards",
-      "description": "Cross-country harmonization and reporting solutions for multiple international customers",
-      "technologies": ["Power BI", "Tableau", "Salesforce"],
+      "description": "Cross-country harmonization and reporting solutions for multiple international customers.",
+      "technologies": ["Power BI", "Tableau", "SQL Server", "SSIS"],
       "details": "Designed and implemented Salesforce Effectiveness dashboards for multiple international customers. Solutions included cross-country data harmonization, integration with Veeva CRM and market sales, and tailored reporting for executive and operational audiences."
     },
     {
       "id": "proj-7",
       "name": "Home Automation",
       "link": "https://git.lionbear.net/earion/homeassistant",
-      "description": "Personal home automation system using Home Assistant with custom Python and C++ retro-engineering integrations",
+      "description": "Personal home automation system using Home Assistant with more than 200 scenarios and automations and 3000 entities, leveraging custom Python and C++ reverse-engineering integrations.",
       "technologies": ["Home Assistant", "Python", "C++"],
-      "details": "Designed and implemented home automation system using Home Assistant with custom Python and C++ retro-engineering integrations. System includes automated lighting, climate control, security monitoring, and energy management with a focus on reliability and user experience."
+      "details": "Designed and implemented home automation system using Home Assistant with custom Python and C++ reverse-engineering integrations. System includes automated lighting and covers, climate control, security monitoring, complex scenarios, and energy management with a focus on reliability and user experience."
+    },
+    {
+      "id": "proj-8",
+      "name": "Personal homelab & self-hosting",
+      "link": "https://git.lionbear.net/earion/lyra",
+      "description": "Personal homelab and self-hosting infrastructure for learning, experimentation, hosting production (family) services and hosting personal projects.",
+      "technologies": ["Docker", "Linux", "OIDC", "CI/CD", "Python", "Windows Server" ],
+      "details": "Designed and implemented personal homelab infrastructure for learning, experimentation, hosting production (family) services and hosting personal projects. System includes Docker containerization, Linux server administration, Windows Server 2025 (DS, RRAS, RDP), OIDC authentication, reverse proxy configuration (Nginx), CI/CD pipelines, and a variety of hosted applications for media, home automation, personal projects, and more.\nHosted tools include Gitea, Immich, Home Assistant, Nextcloud, Grafana, and many others."
     }
 
   ],
