@@ -318,7 +318,7 @@
       "name": "Salesforce Effectiveness Dashboards",
       "description": "Cross-country harmonization and reporting solutions for multiple international customers.",
       "technologies": ["Power BI", "Tableau", "SQL Server", "SSIS"],
-      "details": "Designed and implemented Salesforce Effectiveness dashboards for multiple international customers. Solutions included cross-country data harmonization, integration with Veeva CRM and market sales, and tailored reporting for executive and operational audiences."
+      "details": "Designed and implemented Salesforce Effectiveness dashboards (Tableau, Power BI) for multiple international customers. Solutions included cross-country data harmonization, integration with Veeva CRM and market sales, and tailored reporting for executive, head offices, sales lines managers and field representatives."
     },
     {
       "id": "proj-7",
