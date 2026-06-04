@@ -59,6 +59,7 @@ export interface CVData {
   // Sections
   experiences: Experience[];
   skills: Skill[];
+  softSkills?: Skill[];
   projects?: Project[];
   education?: Education[];
   

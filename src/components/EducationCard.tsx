@@ -21,6 +21,7 @@ export const EducationCard: React.FC<EducationCardProps> = ({
         <p className="education-date">Graduated: {education.graduationDate}</p>
       )}
 
+      <div className="education-footer">
       {education.details && (
         <button
           className="details-btn"
@@ -29,7 +30,7 @@ export const EducationCard: React.FC<EducationCardProps> = ({
             onDetailsClick();
           }}
         >
-          View Details →
+          Details →
         </button>
       )}
 
@@ -38,12 +39,13 @@ export const EducationCard: React.FC<EducationCardProps> = ({
           href={education.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="education-link"
+          className="details-btn"
           onClick={(e) => e.stopPropagation()}
         >
-          Visit Institution →
+          Link →
         </a>
       )}
+      </div>
     </div>
   );
 };

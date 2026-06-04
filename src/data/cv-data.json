@@ -182,6 +182,57 @@
       "details": "Advanced experience designing enterprise-scale data platforms supporting thousands of users across multiple countries. Expertise in medallion architecture and data governance."
     }
   ],
+  "softSkills": [
+    {
+      "id": "soft-1",
+      "name": "Team Leadership",
+      "category": "Leadership",
+      "proficiency": 4,
+      "details": "Led technical teams of up to 15 developers across international projects, setting direction, resolving blockers, and ensuring delivery quality."
+    },
+    {
+      "id": "soft-2",
+      "name": "Mentoring",
+      "category": "Leadership",
+      "proficiency": 4,
+      "details": "Mentored 2 junior architects and multiple developers, accelerating their growth through structured feedback and pairing on complex challenges."
+    },
+    {
+      "id": "soft-3",
+      "name": "Client Management",
+      "category": "Consulting",
+      "proficiency": 4,
+      "details": "16 years engaging directly with senior stakeholders across Life Sciences. Skilled at managing expectations, translating business needs to technical solutions, and building long-term trust."
+    },
+    {
+      "id": "soft-4",
+      "name": "Requirements Analysis",
+      "category": "Consulting",
+      "proficiency": 4,
+      "details": "Experienced in bridging business requirements with technical design, ensuring solutions meet both functional needs and architectural standards."
+    },
+    {
+      "id": "soft-5",
+      "name": "Problem Solving",
+      "category": "Analytical",
+      "proficiency": 4,
+      "details": "Proven ability to decompose complex enterprise challenges into actionable technical designs, consistently delivering scalable and pragmatic solutions."
+    },
+    {
+      "id": "soft-6",
+      "name": "Communication",
+      "category": "Interpersonal",
+      "proficiency": 4,
+      "details": "Fluent in translating technical concepts for executive audiences and business concepts for engineering teams. Comfortable with presentations, written deliverables, and facilitation."
+    },
+    {
+      "id": "soft-7",
+      "name": "Adaptability",
+      "category": "Interpersonal",
+      "proficiency": 3,
+      "details": "Thrives in fast-changing project environments across diverse industries, technologies, and team compositions."
+    }
+  ],
   "projects": [
     {
       "id": "proj-1",
@@ -257,8 +308,9 @@
       "institution": "Databricks Academy",
       "degree": "Professional Certification",
       "field": "Data Engineer Associate",
+      "link": "https://credentials.databricks.com/8705e081-517b-44b4-93e5-fbc0019c3529",
       "graduationDate": "2025-10",
-      "details": "[Certification](https://credentials.databricks.com/8705e081-517b-44b4-93e5-fbc0019c3529) demonstrating proficiency in Databricks platform, Delta Lake, and data engineering best practices."
+      "details": "Certification demonstrating proficiency in Databricks platform, Delta Lake, and data engineering best practices."
     }
   ],
   "theme": {

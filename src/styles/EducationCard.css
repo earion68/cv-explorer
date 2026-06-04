@@ -40,30 +40,42 @@
   color: #6b7280;
 }
 
+.education-footer {
+  display:contents;
+  gap: 12px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
 .education-card .details-btn,
 .education-link {
+  flex: 1;
   background: none;
-  border: none;
+  border: 1px solid #3F6B4E;
   color: #3F6B4E;
+  padding: 8px 12px;
+  margin-right: 15px;
+  border-radius: 4px;
   cursor: pointer;
   font-weight: 600;
-  padding: 8px 0;
-  margin-top: 12px;
-  transition: color 0.2s;
+  font-size: 14px;
+  transition: all 0.2s;
   text-decoration: none;
-  display: inline-block;
+  text-align: center;
 }
 
 .education-card .details-btn:hover,
 .education-link:hover {
-  color: #1e40af;
-  text-decoration: underline;
+  background-color: #3F6B4E;
+  color: white;
+  box-shadow: 0 2px 8px rgba(63, 107, 78, 0.3);
 }
 
 .education-link {
-  display: block;
-  margin-top: 8px;
-  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Mobile responsiveness */
