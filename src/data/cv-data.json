@@ -12,7 +12,7 @@
   "experiences": [
     {
       "id": "exp-1",
-      "company": "IQVIA",
+      "company": "IQVIA - Basel, Switzerland",
       "position": "Engagement Manager",
       "startDate": "2022-10",
       "endDate": null,
@@ -30,7 +30,7 @@
     },
     {
       "id": "exp-2",
-      "company": "IQVIA",
+      "company": "IQVIA - Basel, Switzerland",
       "position": "Senior Consultant",
       "startDate": "2019-10",
       "endDate": "2022-09",
@@ -44,13 +44,13 @@
     },
     {
       "id": "exp-3",
-      "company": "IQVIA",
+      "company": "IQVIA - Basel, Switzerland",
       "position": "Consultant",
       "startDate": "2016-10",
       "endDate": "2019-09",
       "isCurrent": false,
       "summary": "Designed and implemented Salesforce Effectiveness dashboards and data harmonization systems for multiple international customers.",
-      "details": "Developed enterprise data solutions and dashboards for pharmaceutical and healthcare organizations:\n\n• Salesforce Effectiveness Dashboards: Designed and implemented cross-country harmonization solutions (Veeva CRM, market sales) in Power BI and Tableau for multiple customers.\n\n• Data Harmonization System: Created standardized and reusable medallion data model, ETL pipelines, and master data development using Microsoft SSIS and SQL Server Master Data Services.\n\n• International Market Analysis: Built reporting systems for multiple customers supporting diverse business requirements and data sources.",
+      "details": "Developed enterprise data solutions and dashboards for pharmaceutical and healthcare organizations:\n\n* Salesforce Effectiveness Dashboards: Designed and implemented cross-country harmonization solutions (Veeva CRM, market sales) in Power BI and Tableau for multiple customers.\n\n* Data Harmonization System: Created standardized and reusable medallion data model, ETL pipelines, and master data development using Microsoft SSIS and SQL Server Master Data Services.\n\n* International Market Analysis: Built reporting systems for multiple customers supporting diverse business requirements and data sources.",
       "achievements": [
         "Delivered Salesforce Effectiveness solutions for multiple international customers",
         "Created standardized medallion data model reused across multiple engagements",
@@ -60,13 +60,13 @@
     },
     {
       "id": "exp-4",
-      "company": "IQVIA",
+      "company": "IQVIA - Basel, Switzerland",
       "position": "Analyst",
       "startDate": "2013-06",
       "endDate": "2019-05",
       "isCurrent": false,
       "summary": "Designed and implemented Salesforce Effectiveness dashboards and data harmonization systems for multiple international customers.",
-      "details": "• Design & implementation of resource forecasting tool in MVC.NET\n\n• Maintenance of existing Top-10 pharma compliance systems based on Java EE, Oracle PL/SQL and Apex\n\n• Implementation of a centralized ETL control and observability system using ASP.NET and connecting to Oracle, Microsoft SSAS, Microsoft Master Data Services, Informatica.",
+      "details": "* Design & implementation of resource forecasting tool in MVC.NET\n\n* Maintenance of existing Top-10 pharma compliance systems based on Java EE, Oracle PL/SQL and Apex\n\n* Implementation of a centralized ETL control and observability system using ASP.NET and connecting to Oracle, Microsoft SSAS, Microsoft Master Data Services, Informatica.",
       "achievements": [
         "Centralized ETL control and observability system, reducing Operation team workload by 80%",
         "Resource forecasting tool speeding up projects staffing by 40%"      ],
@@ -74,13 +74,13 @@
     },
     {
       "id": "exp-5",
-      "company": "SopraSteria",
+      "company": "SopraSteria - Strasbourg, France",
       "position": "Intern, Analyst",
       "startDate": "2010-06",
       "endDate": "2013-05",
       "isCurrent": false,
       "summary": "Delivered multiple projects for diverse industries including Banking, Avionics, General Industry, and Education using various technology stacks.",
-      "details": "Gained foundational experience across multiple technology domains and industries:\n\n• Project Delivery: Completed multiple projects for Banks, Schools, Avionics companies, and general industries.\n\n• Technology Stack Exposure: Worked with Java EE, .NET, Qt/C++, and Windows CE platforms.\n\n• Full-cycle Development: Participated in requirements gathering, development, testing, and deployment phases.",
+      "details": "Gained foundational experience across multiple technology domains and industries:\n\n* Project Delivery: Completed multiple projects for Banks, Schools, Avionics companies, and general industries.\n\n* Technology Stack Exposure: Worked with Java EE, .NET, Qt/C++, and Windows CE platforms.\n\n* Full-cycle Development: Participated in requirements gathering, development, testing, and deployment phases.",
       "achievements": [
         "Delivered multiple projects across diverse technology stacks",
         "Worked with Fortune 500 companies in Banking and Avionics sectors",
@@ -238,7 +238,7 @@
   "education": [
     {
       "id": "edu-1",
-      "institution": "Université de Haute Alsace",
+      "institution": "Université de Haute Alsace - Mulhouse, France",
       "degree": "Master's Degree",
       "field": "Computer Science for Business Management (MIAGE)",
       "graduationDate": "2010-06",
@@ -249,8 +249,8 @@
       "institution": "Snowflake University",
       "degree": "Professional Certification",
       "field": "SnowPro Core",
-      "graduationDate": "2026-05",
-      "details": "Advanced certification validating expertise in Snowflake architecture, deployment, and best practices."
+      "graduationDate": "2026-06",
+      "details": "Preparing for the SnowPro Core certification validating expertise in Snowflake architecture, deployment, and best practices."
     },
     {
       "id": "edu-3",
@@ -258,7 +258,7 @@
       "degree": "Professional Certification",
       "field": "Data Engineer Associate",
       "graduationDate": "2025-10",
-      "details": "Certification demonstrating proficiency in Databricks platform, Delta Lake, and data engineering best practices."
+      "details": "[Certification](https://credentials.databricks.com/8705e081-517b-44b4-93e5-fbc0019c3529) demonstrating proficiency in Databricks platform, Delta Lake, and data engineering best practices."
     }
   ],
   "theme": {
