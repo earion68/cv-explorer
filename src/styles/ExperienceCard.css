@@ -5,6 +5,52 @@
   gap: 20px;
 }
 
+.experience-timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 25px;
+  bottom: 25px;
+  width: 2px;
+  background-color: #d1d5db;
+}
+
+.experience-timeline::after {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: -7px;
+  height: 30px;
+  width: 0;
+  border-left: 2px dotted #d1d5db;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-node {
+  position: absolute;
+  left: -24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d1d5db;
+  z-index: 1;
+}
+
 .experience-card {
   background: white;
   border: 1px solid #e5e7eb;

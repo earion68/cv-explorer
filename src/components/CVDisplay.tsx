@@ -27,13 +27,15 @@ export const CVDisplay: React.FC<CVDisplayProps> = ({
       {/* Experience Section */}
       {cv.experiences && cv.experiences.length > 0 && (
         <SectionContainer title="Experience">
-          <div className="experience-list">
+          <div className="experience-timeline">
             {cv.experiences.map((exp) => (
-              <ExperienceCard
-                key={exp.id}
-                experience={exp}
-                onDetailsClick={() => onExperienceClick(exp)}
-              />
+              <div key={exp.id} className="timeline-item">
+                <div className="timeline-node"></div>
+                <ExperienceCard
+                  experience={exp}
+                  onDetailsClick={() => onExperienceClick(exp)}
+                />
+              </div>
             ))}
           </div>
         </SectionContainer>
