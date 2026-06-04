@@ -1,0 +1,269 @@
+{
+  "fullName": "Thomas Charbon",
+  "title": "Senior AI/BI Platform & Data Architect",
+  "summary": "Senior Data & Platform Architect with 16 years of consulting experience in Life Sciences. I specialize in designing Snowflake, Databricks, and Azure-based GenAI solutions, building scalable medallion architectures and reusable accelerators. I created AI-enabled data products used across 60+ countries and 2,000+ users. Strong experience bridging business requirements with technical design, leading technical teams, and mentoring architects to accelerate delivery and improve data quality.",
+  "contact": {
+    "email": "thomas.charbon@gmail.com",
+    "phone": "+33 770 00 2150",
+    "linkedin": "https://ch.linkedin.com/in/tcharbon",
+    "github": "https://github.com/earion68",
+    "location": "Hésingue, France"
+  },
+  "experiences": [
+    {
+      "id": "exp-1",
+      "company": "IQVIA",
+      "position": "Engagement Manager",
+      "startDate": "2022-10",
+      "endDate": null,
+      "isCurrent": true,
+      "summary": "Designing and delivering enterprise data architecture and GenAI solutions for global healthcare clients across 60+ countries with 2,000+ users, leading 15+ developers and mentoring junior architects.",
+      "details": "Led high-impact technical initiatives including enterprise-scale data platforms, GenAI solutions, and team mentorship:\n\n* GenAI Medical Chatbot: End-to-end technical solution design using Azure OpenAI (gpt-4) for 3 countries and 200+ healthcare professionals, featuring cloud-native architecture with Application Gateway, Azure Container Apps, RAG with Azure Search, and managed vnets.\n\n* Accelerators Marketplace: Designed LLM-assisted code generation templates, LLM gateways, Docker hosting, and GitLab CI/CD pipeline accelerating team delivery by 80%.\n\n* Data Management Engineering Tool: Implemented comprehensive Python-based tool handling data profiling, schema generation, integrity checks, multi-stack ingestion, metadata lineage tracking, and GenAI exploration, reducing project delivery time by 60%.\n\n* Commercial Data Hub: Architected fully integrated reporting platform for Salesforce Effectiveness supporting 60 countries, multiple sales lines, and 2,000+ data consumers with trusted data foundation.\n\n* Mentored 2 junior architects and led technical teams of up to 15 developers.",
+      "achievements": [
+        "Built Snowflake and Databricks accelerators reused in 15+ projects reducing ingestion/transformation time by ~25%",
+        "Architected enterprise commercial data hub for 60 countries and 2,000+ users integrating Veeva/SAP/market sales with Snowflake Share",
+        "Delivered GenAI medical chatbot for 200+ Healthcare Professionals in 3 countries using Azure OpenAI",
+        "Created LLM-assisted code generation framework accelerating teams by 60%",
+        "Lead technical teams of up to 15 developers and mentored 2 junior architects"
+      ],
+      "technologies": ["Databricks", "Snowflake", "Azure OpenAI", "Python", "dbt", "Power BI", "Tableau", "GitLab CI/CD", "Docker", "Azure"]
+    },
+    {
+      "id": "exp-2",
+      "company": "IQVIA",
+      "position": "Senior Consultant",
+      "startDate": "2019-10",
+      "endDate": "2022-09",
+      "isCurrent": false,
+      "summary": "Data architecture, designed and implemented centralized data model and accelerators, with data quality checks and cross-country harmonization for global healthcare clients.",
+      "details": "",
+      "achievements": [
+        ""
+      ],
+      "technologies": ["SQL Server", "Snowflake", "Python", "dbt", "Power BI", "Tableau"]
+    },
+    {
+      "id": "exp-3",
+      "company": "IQVIA",
+      "position": "Consultant",
+      "startDate": "2016-10",
+      "endDate": "2019-09",
+      "isCurrent": false,
+      "summary": "Designed and implemented Salesforce Effectiveness dashboards and data harmonization systems for multiple international customers.",
+      "details": "Developed enterprise data solutions and dashboards for pharmaceutical and healthcare organizations:\n\n• Salesforce Effectiveness Dashboards: Designed and implemented cross-country harmonization solutions (Veeva CRM, market sales) in Power BI and Tableau for multiple customers.\n\n• Data Harmonization System: Created standardized and reusable medallion data model, ETL pipelines, and master data development using Microsoft SSIS and SQL Server Master Data Services.\n\n• International Market Analysis: Built reporting systems for multiple customers supporting diverse business requirements and data sources.",
+      "achievements": [
+        "Delivered Salesforce Effectiveness solutions for multiple international customers",
+        "Created standardized medallion data model reused across multiple engagements",
+        "Implemented enterprise-scale data harmonization systems"
+      ],
+      "technologies": ["Microsoft SSIS", "Microsoft SSAS", "Power BI", "Tableau", "SQL Server"]
+    },
+    {
+      "id": "exp-4",
+      "company": "IQVIA",
+      "position": "Analyst",
+      "startDate": "2013-06",
+      "endDate": "2019-05",
+      "isCurrent": false,
+      "summary": "Designed and implemented Salesforce Effectiveness dashboards and data harmonization systems for multiple international customers.",
+      "details": "• Design & implementation of resource forecasting tool in MVC.NET\n\n• Maintenance of existing Top-10 pharma compliance systems based on Java EE, Oracle PL/SQL and Apex\n\n• Implementation of a centralized ETL control and observability system using ASP.NET and connecting to Oracle, Microsoft SSAS, Microsoft Master Data Services, Informatica.",
+      "achievements": [
+        "Centralized ETL control and observability system, reducing Operation team workload by 80%",
+        "Resource forecasting tool speeding up projects staffing by 40%"      ],
+      "technologies": ["Microsoft MDS", "Oracle", "Informatica", "SQL Server", "Master Data Services", "ASP.NET", "MVC.NET", "Oracle Apex", "Java EE", "PL/SQL"]
+    },
+    {
+      "id": "exp-5",
+      "company": "SopraSteria",
+      "position": "Intern, Analyst",
+      "startDate": "2010-06",
+      "endDate": "2013-05",
+      "isCurrent": false,
+      "summary": "Delivered multiple projects for diverse industries including Banking, Avionics, General Industry, and Education using various technology stacks.",
+      "details": "Gained foundational experience across multiple technology domains and industries:\n\n• Project Delivery: Completed multiple projects for Banks, Schools, Avionics companies, and general industries.\n\n• Technology Stack Exposure: Worked with Java EE, .NET, Qt/C++, and Windows CE platforms.\n\n• Full-cycle Development: Participated in requirements gathering, development, testing, and deployment phases.",
+      "achievements": [
+        "Delivered multiple projects across diverse technology stacks",
+        "Worked with Fortune 500 companies in Banking and Avionics sectors",
+        "Gained broad technical experience in Java, .NET, and C++"
+      ],
+      "technologies": ["Java EE", ".NET", "Qt/C++", "Windows CE", "SQL Server"]
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "Databricks",
+      "category": "Data Platform",
+      "proficiency": 3,
+      "details": "Proficient in Databricks Adaptive Query Execution (AQE), Auto-loader for incremental ingestion, and Delta Live Tables (DLT) for production-grade data pipelines. Experience designing and implementing medallion architectures on Databricks."
+    },
+    {
+      "id": "skill-2",
+      "name": "Snowflake",
+      "category": "Data Platform",
+      "proficiency": 4,
+      "details": "Advanced expertise in Snowflake architecture, Semantic models, data staging, and Snowflake Share for secure data sharing. Designed and implemented enterprise-scale Snowflake data warehouses."
+    },
+    {
+      "id": "skill-3",
+      "name": "SQL & Data Patterns",
+      "category": "Data Platform",
+      "proficiency": 4,
+      "details": "Expert-level SQL proficiency with best practices and standard patterns including SCD (Slowly Changing Dimensions), CDC (Change Data Capture), and optimized query design."
+    },
+    {
+      "id": "skill-4",
+      "name": "Azure Cloud",
+      "category": "Cloud Platforms",
+      "proficiency": 4,
+      "details": "Strong experience with Azure cloud-native architectures including Azure Container Apps (ACA), virtual networks, Azure OpenAI integration, and Azure AI Foundry."
+    },
+    {
+      "id": "skill-4",
+      "name": "AWS",
+      "category": "Cloud Platforms",
+      "proficiency": 2,
+      "details": "Basic experience with AWS services including EC2, S3, Lambda, and RDS. Familiar with AWS data services and cloud architecture principles."
+    },
+    {
+      "id": "skill-5",
+      "name": "Python",
+      "category": "Programming",
+      "proficiency": 3,
+      "details": "Proficient in Python for data engineering, automation, and data management tools. Strong bash scripting for infrastructure automation and DevOps workflows."
+    },
+    {
+      "id": "skill-5",
+      "name": "Bash",
+      "category": "Programming",
+      "proficiency": 4,
+      "details": "Advanced bash scripting for Linux server administration, automation, and DevOps workflows. Expertise in shell scripting best practices and performance optimization."
+    },
+    {
+      "id": "skill-6",
+      "name": "Linux & Containerization",
+      "category": "DevOps",
+      "proficiency": 4,
+      "details": "Advanced Linux server administration, Docker containerization, networking, and hosting platforms."
+    },
+    {
+      "id": "skill-6",
+      "name": "CI/CD & IaC",
+      "category": "DevOps",
+      "proficiency": 3,
+      "details": "Expertise in GitLab CI/CD, DevOps toolkit, and infrastructure-as-code principles."
+    },
+    {
+      "id": "skill-7",
+      "name": "Business Intelligence",
+      "category": "Analytics",
+      "proficiency": 3,
+      "details": "Experienced with Power BI and Tableau for enterprise analytics and self-service business intelligence. Designed dashboards for executive and operational audiences."
+    },
+    {
+      "id": "skill-8",
+      "name": "Generative AI",
+      "category": "AI/ML",
+      "proficiency": 3,
+      "details": "Expertise in Azure OpenAI integration, prompt engineering, and RAG (Retrieval-Augmented Generation) architectures. Created LLM-assisted code generation frameworks."
+    },
+    {
+      "id": "skill-9",
+      "name": "ETL & Data Integration",
+      "category": "Data Platform",
+      "proficiency": 4,
+      "details": "Expert in designing and implementing complex ETL pipelines using SSIS, dbt, Informatica, and Spark. Proficient in automated data mapping and transformation."
+    },
+    {
+      "id": "skill-10",
+      "name": "Enterprise Architecture",
+      "category": "Architecture",
+      "proficiency": 4,
+      "details": "Advanced experience designing enterprise-scale data platforms supporting thousands of users across multiple countries. Expertise in medallion architecture and data governance."
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "GenAI Medical Chatbot",
+      "description": "End-to-end technical solution design for medical professionals using Azure OpenAI with RAG architecture",
+      "technologies": ["Azure OpenAI", "Azure Container Apps", "Azure Search", "Python", "RAG"],
+      "details": "Architected and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. Solution features cloud-native architecture with Application Gateway, Azure Container Apps, RAG with Azure Search, and managed vnets.\n\nKey Achievements:\n• Deployed to 3 countries with 200+ active users\n• 99.9% uptime SLA\n• Sub-second response times\n• Regulatory compliance with healthcare requirements"
+    },
+    {
+      "id": "proj-2",
+      "name": "LLM-Assisted Code Generation",
+      "description": "Framework and hosting platform accelerating team delivery by 80%",
+      "technologies": ["Azure OpenAI", "Python", "Docker", "GitLab CI/CD"],
+      "details": "Designed and implemented comprehensive framework for LLM-assisted code generation with templates, gateways, and automated deployment. Platform includes Docker containerization and GitLab CI/CD integration.\n\nBusiness Impact:\n• 80% reduction in code generation time\n• Standardized development patterns\n• Faster developer onboarding\n• Improved code quality"
+    },
+    {
+      "id": "proj-3",
+      "name": "Data Management Tool",
+      "description": "Comprehensive Python tool for data profiling, quality, and GenAI-assisted exploration",
+      "technologies": ["Python", "Databricks", "Snowflake", "GenAI"],
+      "details": "Built end-to-end data management tool providing data profiling, schema generation, integrity checks, multi-stack ingestion, metadata tracking, and GenAI-assisted exploration.\n\nKey Features:\n• Automated data quality profiling\n• Schema generation from samples\n• Multi-platform ingestion\n• GenAI-powered data mapping\n• Complete metadata tracking"
+    },
+    {
+      "id": "proj-4",
+      "name": "Commercial Data Hub",
+      "description": "Enterprise platform supporting 60 countries and 2,000+ users integrating Veeva, SAP, and market sales",
+      "technologies": ["Snowflake", "Snowflake Share", "Power BI", "dbt"],
+      "details": "Architected comprehensive Commercial data hub for global organization supporting 60 countries. Integrated Veeva CRM, SAP sales, market data, and territory assignments. Platform serves as trusted data foundation for 2,000+ users.\n\nArchitecture:\n• Multi-country data harmonization\n• Federated data sharing\n• Self-service analytics\n• Territory management"
+    },
+    {
+      "id": "proj-5",
+      "name": "Snowflake & Databricks Accelerators",
+      "description": "Standardized data models and frameworks reused in 15+ projects, reducing time by 25%",
+      "technologies": ["Snowflake", "Databricks", "dbt", "SQL"],
+      "details": "Designed reusable accelerators with standardized Commercial data model and cross-country harmonization. Reduced ingestion and transformation time by ~25% across 15+ projects.\n\nComponents:\n• Medallion architecture templates\n• Standardized data models\n• Automated harmonization\n• Territory assignment logic"
+    },
+    {
+      "id": "proj-6",
+      "name": "Salesforce Effectiveness Dashboards",
+      "description": "Cross-country harmonization and reporting solutions for multiple international customers",
+      "technologies": ["Power BI", "Tableau", "Salesforce"],
+      "details": "Designed and implemented Salesforce Effectiveness dashboards for multiple international customers. Solutions included cross-country data harmonization, integration with Veeva CRM and market sales, and tailored reporting for executive and operational audiences."
+    },
+    {
+      "id": "proj-7",
+      "name": "Home Automation",
+      "link": "https://git.lionbear.net/earion/homeassistant",
+      "description": "Personal home automation system using Home Assistant with custom Python and C++ retro-engineering integrations",
+      "technologies": ["Home Assistant", "Python", "C++"],
+      "details": "Designed and implemented home automation system using Home Assistant with custom Python and C++ retro-engineering integrations. System includes automated lighting, climate control, security monitoring, and energy management with a focus on reliability and user experience."
+    }
+
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Université de Haute Alsace",
+      "degree": "Master's Degree",
+      "field": "Computer Science for Business Management (MIAGE)",
+      "graduationDate": "2010-06",
+      "details": "Graduate degree with honors focusing on application of computer science to business management and enterprise-scale system design."
+    },
+    {
+      "id": "edu-2",
+      "institution": "Snowflake University",
+      "degree": "Professional Certification",
+      "field": "SnowPro Core",
+      "graduationDate": "2026-05",
+      "details": "Advanced certification validating expertise in Snowflake architecture, deployment, and best practices."
+    },
+    {
+      "id": "edu-3",
+      "institution": "Databricks Academy",
+      "degree": "Professional Certification",
+      "field": "Data Engineer Associate",
+      "graduationDate": "2025-10",
+      "details": "Certification demonstrating proficiency in Databricks platform, Delta Lake, and data engineering best practices."
+    }
+  ],
+  "theme": {
+    "primaryColor": "#1e3a8a",
+    "secondaryColor": "#3b82f6"
+  },
+  "updatedDate": "2024-06-01"
+}

@@ -1,0 +1,46 @@
+/* Section Container Styles */
+.section-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.section-container:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  margin: 0 0 24px 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #348c51 0%, #27412f 100%);
+  border-radius: 2px;
+}
+
+.section-content {
+  color: #374151;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .section-container {
+    padding: 30px 16px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,21 @@
+/* App Wrapper */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Print Styles */
+@media print {
+  .pdf-download-btn {
+    display: none !important;
+  }
+
+  .cv-header {
+    position: static;
+  }
+
+  .section-container {
+    page-break-inside: avoid;
+  }
+}

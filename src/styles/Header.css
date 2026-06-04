@@ -1,0 +1,125 @@
+/* Header Styles */
+.cv-header {
+  background: linear-gradient(135deg, #6F9A7D 0%, #2E4F39 100%);
+  color: white;
+  padding: 50px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-bottom: 3px solid #6aac80;
+}
+
+.header-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.header-content {
+  flex: 1;
+}
+
+.header-name {
+  margin: 0 0 6px 0;
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white !important;
+}
+
+.header-title {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.95;
+  letter-spacing: 0.3px;
+  color: lightgray !important;
+}
+
+.header-summary {
+  margin: 16px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.9;
+  max-width: 600px;
+  color: white !important;
+}
+
+.header-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.contact-link:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  text-decoration: underline;
+}
+
+.contact-link:not(a) {
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pdf-download-btn {
+  background-color: #3F6B4E;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pdf-download-btn:hover {
+  background-color: #4d9c68;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.pdf-download-btn:active {
+  transform: translateY(0);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .cv-header {
+    padding: 30px 0;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header-name {
+    font-size: 32px;
+  }
+
+  .header-title {
+    font-size: 18px;
+  }
+
+  .pdf-download-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

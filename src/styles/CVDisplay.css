@@ -1,0 +1,28 @@
+/* CV Display Styles */
+.cv-display {
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+@media print {
+  .cv-display {
+    background-color: white;
+    min-height: auto;
+  }
+
+  .section-container {
+    page-break-inside: avoid;
+    border-bottom: none;
+    padding: 20px 0;
+  }
+
+  .experience-card,
+  .project-card,
+  .education-card {
+    page-break-inside: avoid;
+  }
+
+  .pdf-download-btn {
+    display: none;
+  }
+}

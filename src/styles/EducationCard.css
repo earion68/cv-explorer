@@ -1,0 +1,82 @@
+/* Education Card Styles */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  border-color: #3F6B4E;
+  box-shadow: 0 4px 12px rgba(63, 107, 78, 0.1);
+  transform: translateY(-2px);
+}
+
+.education-institution {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.education-degree {
+  margin: 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3F6B4E;
+}
+
+.education-date {
+  margin: 8px 0 12px 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.education-card .details-btn,
+.education-link {
+  background: none;
+  border: none;
+  color: #3F6B4E;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 0;
+  margin-top: 12px;
+  transition: color 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.education-card .details-btn:hover,
+.education-link:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.education-link {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .education-card {
+    padding: 16px;
+  }
+
+  .education-institution {
+    font-size: 16px;
+  }
+
+  .education-degree {
+    font-size: 14px;
+  }
+}
