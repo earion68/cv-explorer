@@ -323,7 +323,7 @@
     {
       "id": "proj-7",
       "name": "Home Automation",
-      "link": "https://git.lionbear.net/earion/homeassistant",
+      "link": "https://github.com/earion68/domotique-homeassistant",
       "description": "Personal home automation system using Home Assistant with more than 200 scenarios and automations and 3000 entities, leveraging custom Python and C++ reverse-engineering integrations.",
       "technologies": ["Home Assistant", "Python", "C++"],
       "details": "Designed and implemented home automation system using Home Assistant with custom Python and C++ reverse-engineering integrations. System includes automated lighting and covers, climate control, security monitoring, complex scenarios, and energy management with a focus on reliability and user experience."
@@ -331,7 +331,7 @@
     {
       "id": "proj-8",
       "name": "Personal homelab & self-hosting",
-      "link": "https://git.lionbear.net/earion/lyra",
+      "link": "https://github.com/earion68/lyra",
       "description": "Personal homelab and self-hosting infrastructure for learning, experimentation, hosting production (family) services and hosting personal projects.",
       "technologies": ["Docker", "Linux", "OIDC", "CI/CD", "Python", "Windows Server" ],
       "details": "Designed and implemented personal homelab infrastructure for learning, experimentation, hosting production (family) services and hosting personal projects. System includes Docker containerization, Linux server administration, Windows Server 2025 (DS, RRAS, RDP), OIDC authentication, reverse proxy configuration (Nginx), CI/CD pipelines, and a variety of hosted applications for media, home automation, personal projects, and more.\nHosted tools include Gitea, Immich, Home Assistant, Nextcloud, Grafana, and many others."
