@@ -13,7 +13,7 @@
     {
       "id": "exp-1",
       "company": "IQVIA - Basel, Switzerland",
-      "position": "Engagement Manager",
+      "position": "Solution Architect - Engagement Manager",
       "startDate": "2022-10",
       "endDate": null,
       "isCurrent": true,
@@ -31,7 +31,7 @@
     {
       "id": "exp-2",
       "company": "IQVIA - Basel, Switzerland",
-      "position": "Senior Consultant",
+      "position": "Senior Data Engineer - Senior Consultant",
       "startDate": "2019-10",
       "endDate": "2022-09",
       "isCurrent": false,
@@ -47,7 +47,7 @@
     {
       "id": "exp-3",
       "company": "IQVIA - Basel, Switzerland",
-      "position": "Consultant",
+      "position": "Data Engineer -Consultant",
       "startDate": "2016-10",
       "endDate": "2019-09",
       "isCurrent": false,
@@ -63,7 +63,7 @@
     {
       "id": "exp-4",
       "company": "IQVIA - Basel, Switzerland",
-      "position": "Analyst",
+      "position": "Data Engineer - Analyst",
       "startDate": "2013-06",
       "endDate": "2019-05",
       "isCurrent": false,
@@ -77,7 +77,7 @@
     {
       "id": "exp-5",
       "company": "SopraSteria - Strasbourg, France",
-      "position": "Intern, Analyst",
+      "position": "Software Engineer - Intern, Analyst",
       "startDate": "2010-06",
       "endDate": "2013-05",
       "isCurrent": false,
