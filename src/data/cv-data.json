@@ -18,13 +18,13 @@
       "endDate": null,
       "isCurrent": true,
       "summary": "Designing and delivering enterprise data architecture and GenAI solutions for global healthcare clients across 60+ countries with 2,000+ users, leading 15+ developers and mentoring junior architects.",
-      "details": "Led high-impact technical initiatives including enterprise-scale data platforms, GenAI solutions, and team mentorship:\n\n* GenAI Medical Chatbot: End-to-end technical solution design using Azure OpenAI (gpt-4) for 3 countries and 200+ healthcare professionals, featuring cloud-native architecture with Application Gateway, Azure Container Apps, RAG with Azure Search, and managed vnets.\n\n* Accelerators Marketplace: Designed LLM-assisted code generation templates, LLM gateways, Docker hosting, and GitLab CI/CD pipeline accelerating team delivery by 80%.\n\n* Data Management Engineering Tool: Implemented comprehensive Python-based tool handling data profiling, schema generation, integrity checks, multi-stack ingestion, metadata lineage tracking, and GenAI exploration, reducing project delivery time by 60%.\n\n* Commercial Data Hub: Architected fully integrated reporting platform for Salesforce Effectiveness supporting 60 countries, multiple sales lines, and 2,000+ data consumers with trusted data foundation.\n\n* Mentored 2 junior architects and led technical teams of up to 15 developers.",
+      "details": "Led high-impact technical initiatives including enterprise-scale data platforms, GenAI solutions, and team mentorship:\n\n* GenAI Medical Chatbot: End-to-end technical solution design using Azure OpenAI (gpt-5.1) for 3 countries and 200+ healthcare professionals, featuring cloud-native architecture with Azure Foundry, Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n* Accelerators Marketplace: Designed LLM-assisted code generation templates, LLM gateways, Docker hosting, and GitLab CI/CD pipeline accelerating team delivery by 80%.\n\n* Data Management Engineering Tool: Implemented comprehensive Python/React-based tool handling data profiling, schema generation, integrity checks, multi-stack ingestion pipelines, metadata & lineage tracking, and GenAI exploration, reducing project delivery time by 60%.\n\n* Commercial Data Hub: Architected fully integrated reporting platform for Salesforce Effectiveness (Veeva CRM, SAP, Market sales) supporting 60 countries, multiple sales lines, and 2,000+ data consumers with trusted data foundation.\n\n* Mentored junior architects and led technical teams of up to 15 developers.",
       "achievements": [
-        "Built Snowflake and Databricks accelerators reused in 15+ projects reducing ingestion/transformation time by ~25%",
+        "Built Snowflake and Databricks accelerators reused in 15+ projects reducing ingestion/transformation time by ~50%",
         "Architected enterprise commercial data hub for 60 countries and 2,000+ users integrating Veeva/SAP/market sales with Snowflake Share",
         "Delivered GenAI medical chatbot for 200+ Healthcare Professionals in 3 countries using Azure OpenAI",
         "Created LLM-assisted code generation framework accelerating teams by 60%",
-        "Lead technical teams of up to 15 developers and mentored 2 junior architects"
+        "Lead technical teams of up to 15 developers and mentored junior architects towards upskilling and career growth"
       ],
       "technologies": ["Databricks", "Snowflake", "Azure OpenAI", "Python", "dbt", "Power BI", "Tableau", "GitLab CI/CD", "Docker", "Azure"]
     },
@@ -36,11 +36,11 @@
       "endDate": "2022-09",
       "isCurrent": false,
       "summary": "Data architecture, designed and implemented centralized data model and accelerators, with data quality checks and cross-country harmonization for global healthcare clients.",
-      "details": "Designed and implemented an all-purpose Commercial data model and improved the data management tool to standardize more than 600 data sources from diverse domains like Sales, Customer Engagement, and Market data. Implementation of data quality checks, standardized cross-country harmonization (territory assignment, market definition, products, accounts, row-level security) and GDPR compliant using SQL Server, Snowflake and AWS S3. Implemented dashboards in Power BI and Tableau for global healthcare clients, supporting diverse business requirements and data sources.",
+      "details": "Designed and implemented an all-purpose Commercial data model and improved the data management tool to standardize more than 600 data sources from diverse domains like Sales (SAP, 3rd party), Customer Engagement (Veeva CRM), and Market data. \n\nImplementation of data quality checks, standardized cross-country harmonization (territory assignment, market definition, products, accounts, row-level security) and GDPR compliant using SQL Server, Snowflake and AWS S3. \n\nImplemented dashboards in Power BI and Tableau for global healthcare clients, supporting diverse business requirements and data sources.",
       "achievements": [
         "Building a comprehensive Commercial data model and transformation accelerators that became company standards, leveraged in more than 30 projects since",
         "Shaped the CI/CD pipeline and enforced DevOps best practices across multiple projects, improving deployment reliability and reducing manual errors",
-        "Designed and implemented data quality checks and cross-country harmonization solutions for global healthcare clients, ensuring data consistency and compliance"
+        "Designed and implemented data quality checks and cross-country harmonization solutions for global healthcare clients, ensuring data consistency and compliance and reducing data issues by 60%"
       ],
       "technologies": ["SQL Server", "Snowflake", "Python", "dbt", "Power BI", "Tableau"]
     },
@@ -52,7 +52,7 @@
       "endDate": "2019-09",
       "isCurrent": false,
       "summary": "Designed and implemented Salesforce Effectiveness dashboards and data harmonization systems for multiple international customers.",
-      "details": "Developed enterprise data solutions and dashboards for pharmaceutical and healthcare organizations:\n\n* Salesforce Effectiveness Dashboards: Designed and implemented cross-country harmonization solutions (Veeva CRM, market sales) in Power BI and Tableau for multiple customers.\n\n* Data Harmonization System: Created standardized and reusable medallion data model, ETL pipelines, and master data development using Microsoft SSIS and SQL Server Master Data Services.\n\n* International Market Analysis: Built reporting systems for multiple customers supporting diverse business requirements and data sources.",
+      "details": "Developed enterprise data solutions and dashboards for pharmaceutical and healthcare organizations:\n\n* Salesforce Effectiveness Dashboards: Designed and implemented cross-country harmonization solutions (Veeva CRM, market sales) in Power BI and Tableau for multiple customers.\n\n* Data Harmonization system: Created standardized and reusable medallion data model, ETL pipelines, and master data development using Microsoft SSIS, SQL Server and Master Data Services.\n\n* International Market Analysis: Built reporting systems for multiple customers (Power BI, Tableau) supporting diverse business requirements and data sources.",
       "achievements": [
         "Delivered Salesforce Effectiveness analytical solutions for multiple international customers",
         "Created standardized medallion data model reused across multiple engagements",
@@ -67,7 +67,7 @@
       "startDate": "2013-06",
       "endDate": "2019-05",
       "isCurrent": false,
-      "summary": "Designed and implemented Salesforce Effectiveness dashboards and data harmonization systems for multiple international customers.",
+      "summary": "Designed and implemented resource forecasting tool, maintained compliance systems, and implemented centralized ETL control and observability system for global healthcare clients.",
       "details": "* Design & implementation of resource forecasting tool in MVC.NET\n\n* Maintenance of existing Top-10 pharma compliance systems based on Java EE, Oracle PL/SQL and Apex\n\n* Implementation of a centralized ETL control and observability system using ASP.NET and connecting to Oracle, Microsoft SSAS, Microsoft Master Data Services, Informatica.",
       "achievements": [
         "Centralized ETL control and observability system, reducing Operation team workload by 80%",
@@ -85,7 +85,7 @@
       "details": "Gained foundational experience across multiple technology domains and industries:\n\n* Project Delivery: Completed multiple projects for Banks, Schools, Avionics companies, and general industries.\n\n* Technology Stack Exposure: Worked with Java EE, .NET, Qt/C++, and Windows CE platforms.\n\n* Full-cycle Development: Participated in requirements gathering, development, testing, and deployment phases.",
       "achievements": [
         "Delivered multiple projects across diverse technology stacks",
-        "Worked with Fortune 500 companies in Banking and Avionics sectors",
+        "Worked with companies in Banking and Avionics sectors",
         "Gained broad technical experience in Java, .NET, and C++"
       ],
       "technologies": ["Java EE", ".NET", "Qt/C++", "Windows CE", "SQL Server"]
@@ -97,7 +97,7 @@
       "name": "Databricks",
       "category": "Data Platform",
       "proficiency": 3,
-      "details": "Proficient in Databricks Adaptive Query Execution (AQE), Auto-loader for incremental ingestion, and Delta Live Tables (DLT) for production-grade data pipelines. Experience designing and implementing medallion architectures on Databricks."
+      "details": "Proficient in Databricks, including Adaptive Query Execution (AQE), Auto-loader for incremental ingestion, and Delta Live Tables (DLT) for production-grade data pipelines. Experience designing and implementing medallion architectures on Databricks."
     },
     {
       "id": "skill-2",
@@ -118,7 +118,7 @@
       "name": "Azure Cloud",
       "category": "Cloud Platforms",
       "proficiency": 4,
-      "details": "Strong experience with Azure cloud-native architectures including Azure Container Apps (ACA), virtual networks, Azure OpenAI integration, and Azure AI Foundry."
+      "details": "Strong experience with Azure cloud-native architectures including Azure Container Apps (ACA), virtual networks, Azure OpenAI integration, Cosmos DB, Azure Cognitive Search, and Azure AI Foundry."
     },
     {
       "id": "skill-4",
@@ -132,14 +132,21 @@
       "name": "Python",
       "category": "Programming",
       "proficiency": 3,
-      "details": "Proficient in Python for data engineering, automation, and data management tools. Strong bash scripting for infrastructure automation and DevOps workflows."
+      "details": "Proficient in Python for data engineering, automation, and data management tools. Experience with libraries such as PySpark, Pandas, SQLAlchemy."
     },
     {
       "id": "skill-5",
       "name": "Bash",
       "category": "Programming",
       "proficiency": 4,
-      "details": "Advanced bash scripting for Linux server administration, automation, and DevOps workflows. Expertise in shell scripting best practices and performance optimization."
+      "details": "Advanced bash scripting for Linux server administration, automation, and DevOps workflows. Expertise in shell scripting best practices and performance optimization. Strong scripting skills for infrastructure automation and DevOps workflows."
+    },
+    {
+      "id": "skill-5",
+      "name": "Object-oriented Programming",
+      "category": "Programming",
+      "proficiency": 4,
+      "details": "Strong object-oriented programming skills in Python, C#, PHP, Java EE, C++. Experience designing modular, reusable code with SOLID principles and design patterns."
     },
     {
       "id": "skill-6",
@@ -211,14 +218,14 @@
       "name": "Mentoring",
       "category": "Leadership",
       "proficiency": 4,
-      "details": "Mentored 2 junior architects and multiple developers, accelerating their growth through structured feedback and pairing on complex challenges with excellent feedback from mentees. Created impactful learning experiences and growth plans, resulting in faster ramp-up and improved performance."
+      "details": "Mentored junior architects and multiple developers, accelerating their growth through structured feedback and pairing on complex challenges with excellent feedback from mentees. Created impactful learning experiences and growth plans, resulting in faster ramp-up and improved performance."
     },
     {
       "id": "soft-3",
       "name": "Client Management",
       "category": "Consulting",
       "proficiency": 3,
-      "details": "16 years engaging directly with senior stakeholders across Life Sciences. Skilled at managing expectations, translating business needs to technical solutions, and building long-term trust."
+      "details": "10 years engaging directly with senior stakeholders across Life Sciences. Skilled at managing expectations, translating business needs to technical solutions, and building long-term trust."
     },
     {
       "id": "soft-4",
@@ -283,35 +290,35 @@
       "name": "GenAI Medical Chatbot",
       "description": "End-to-end technical solution design for medical professionals using Azure OpenAI with RAG architecture.",
       "technologies": ["Azure OpenAI", "Azure Container Apps", "Cognitive Search", "Python", "RAG"],
-      "details": "Architected, implemented and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. Solution features cloud-native architecture with Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n#### Key Achievements:\n* Deployed to 3 countries with 200+ active users\n* 99.9% uptime SLA\n* Sub-second response times\n* Regulatory compliance with healthcare requirements and GDPR"
+      "details": "Architected, implemented and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. \n\nSolution features cloud-native architecture with Azure Foundry, Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n#### Key Achievements:\n* Deployed to 3 countries with 200+ active users\n* Regulatory compliance with healthcare requirements and GDPR"
     },
     {
       "id": "proj-2",
       "name": "LLM-Assisted Code Generation",
       "description": "Code generation framework and hosting platform accelerating team delivery by 80%.",
       "technologies": ["Azure OpenAI", "Python", "Docker", "GitLab CI/CD"],
-      "details": "Designed and implemented comprehensive framework for LLM-assisted code generation with templates, gateways, and automated deployment. Platform includes Docker containerization and GitLab CI/CD integration.\n\n#### Business Impact:\n* 80% reduction in code generation time\n* Standardized development patterns across the teams\n* Faster developer onboarding\n* Improved code quality\n* Best practices and stack recommendations\n* Modular and integrated in the company ecosystem"
+      "details": "Designed and implemented comprehensive framework for LLM-assisted code generation with templates, gateways, and automated deployment. \n\nPlatform includes Docker containerization and full GitLab CI/CD integration.\n\n#### Business Impact:\n* 80% reduction in code generation time\n* Standardized development patterns across the teams\n* Faster developer onboarding\n* Improved code quality\n* Best practices and stack recommendations\n* Modular and integrated in the company ecosystem"
     },
     {
       "id": "proj-3",
       "name": "Data Management Tool",
       "description": "Comprehensive Python tool for data profiling, quality, and GenAI-assisted exploration.",
       "technologies": ["Python", "React", "Databricks", "Snowflake", "GenAI"],
-      "details": "End-to-end built of a Python data management tool providing data profiling, schema generation, integrity checks, multi-stack ingestion, metadata tracking, and GenAI-assisted exploration.\n\n#### Key Features:\n* Automated data quality profiling\n* Schema generation from samples\n* Multi-platform ingestion pipelines\n* GenAI-powered data mapping and metadata generation\n* Complete metadata tracking"
+      "details": "End-to-end built of a Python / React data management tool providing data profiling, schema generation, integrity checks, multi-stack ingestion pipelines, metadata tracking, lineage, and GenAI-assisted exploration.\n\n#### Key Features:\n* Automated data quality profiling\n* Schema generation from samples\n* Multi-platform ingestion pipelines\n* GenAI-powered data mapping and metadata generation\n* Complete metadata tracking"
     },
     {
       "id": "proj-4",
       "name": "Commercial Data Hub",
       "description": "Enterprise platform based on Snowflake supporting more than 600 data sources across 60 countries and 2,000+ users integrating Veeva, SAP, and market sales.",
       "technologies": ["Snowflake", "Snowflake Share", "Power BI", "dbt"],
-      "details": "Architected comprehensive Commercial data hub for global organization supporting 60 countries. Integrated Veeva CRM, SAP sales, market data, and territory assignments. Platform serves as trusted data foundation for 2,000+ users.\n\n#### Business Impact:\n* Multi-country data harmonization\n* Federated data sharing\n* Self-service analytics\n* Territory management"
+      "details": "Architected and implemented comprehensive Commercial data hub for global organization supporting 60 countries. Integrated Veeva CRM, SAP sales, market data, and territory assignments. Platform serves as trusted data foundation for 2,000+ users.\n\n#### Business Impact:\n* Multi-country data harmonization\n* Federated data sharing\n* Self-service analytics\n* Territory management"
     },
     {
       "id": "proj-5",
       "name": "Snowflake & Databricks Accelerators",
       "description": "Standardized data models and frameworks reused in 15+ projects, reducing time by 25%.",
       "technologies": ["Snowflake", "Databricks", "dbt", "SQL"],
-      "details": "Designed reusable accelerators with standardized Commercial data model and cross-country harmonization. Reduced ingestion and transformation time by ~25% across 15+ projects.\n\n#### Components:\n* Medallion architecture templates\n* Standardized data models\n* Automated harmonization\n* Comprehensive quality checks framework\n* Territory assignment and Market definition logic"
+      "details": "Designed reusable accelerators with standardized Commercial data model and cross-country harmonization. Reduced ingestion and transformation time by ~50% across 15+ projects.\n\n#### Components:\n* Medallion architecture templates\n* Standardized data models\n* Automated harmonization\n* Comprehensive quality checks framework\n* Territory assignment and Market definition logic"
     },
     {
       "id": "proj-6",

@@ -13,10 +13,10 @@ export const EducationCard: React.FC<EducationCardProps> = ({
 }) => {
   return (
     <div className="education-card" onClick={onDetailsClick}>
-      <h3 className="education-institution">{education.institution}</h3>
       <p className="education-degree">
         {education.degree} in {education.field}
       </p>
+      <h3 className="education-institution">{education.institution}</h3>
       {education.graduationDate && (
         <p className="education-date">Graduated: {education.graduationDate}</p>
       )}
