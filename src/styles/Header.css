@@ -39,13 +39,15 @@
   color: lightgray !important;
 }
 
-.header-summary {
+.header-summary,
+.header-summary p {
   margin: 16px 0;
   font-size: 16px;
   line-height: 1.5;
   opacity: 0.9;
   max-width: 600px;
   color: white !important;
+  text-align: justify;
 }
 
 .header-contact {

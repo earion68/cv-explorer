@@ -1,4 +1,5 @@
 import React from 'react';
+import Markdown from 'react-markdown';
 import type { CVData } from '../types/cv';
 import pdfUrl from '../assets/CV_Thomas_CHARBON_light.pdf?url';
 import '../styles/Header.css';
@@ -18,7 +19,9 @@ export const Header: React.FC<HeaderProps> = ({ cv }) => {
           <h1 className="header-name">{cv.fullName}</h1>
           <p className="header-title">{cv.title}</p>
           {cv.summary && (
-            <p className="header-summary">{cv.summary}</p>
+            <div className="header-summary">
+              <Markdown>{cv.summary}</Markdown>
+            </div>
           )}
           <div className="header-contact">
             {cv.contact.email && (

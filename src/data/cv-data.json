@@ -1,7 +1,7 @@
 {
   "fullName": "Thomas Charbon",
   "title": "Senior AI/BI Platform & Data Architect",
-  "summary": "Senior Data & Platform Architect with 16 years of consulting experience in Life Sciences. I specialize in designing Snowflake, Databricks, and Azure-based GenAI solutions, building scalable medallion architectures and reusable accelerators. I created AI-enabled data products used across 60+ countries and 2,000+ users. Strong experience bridging business requirements with technical design, leading technical teams, and mentoring architects to accelerate delivery and improve data quality.",
+  "summary": "With 16 years of consulting and leadership of enterprise commercial data platforms in Life Science, I specialize in designing **Snowflake**, **Databricks**, and Azure-based **GenAI enterprise data platforms**, combining hands-on architecture, delivery rigor, and strong client-facing leadership to build **trusted and scalable medallion architectures**, reusable accelerators, and **AI-enabled data products** used across 60+ countries and 2,000+ users.\n\nI have strong experience **bridging business requirements and technical design**, with hands-on expertise in data harmonization, lineage, and quality\n\n, I am recognized for high client satisfaction, end to end ownership, **leading technical teams** and **mentoring architects** to raise engineering standards, accelerate delivery and improve data trust at scale.",
   "contact": {
     "email": "thomas.charbon@gmail.com",
     "phone": "+33 770 00 2150",
@@ -289,8 +289,8 @@
       "id": "proj-1",
       "name": "GenAI Medical Chatbot",
       "description": "End-to-end technical solution design for medical professionals using Azure OpenAI with RAG architecture.",
-      "technologies": ["Azure OpenAI", "Azure Container Apps", "Cognitive Search", "Python", "RAG"],
-      "details": "Architected, implemented and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. \n\nSolution features cloud-native architecture with Azure Foundry, Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n#### Key Achievements:\n* Deployed to 3 countries with 200+ active users\n* Regulatory compliance with healthcare requirements and GDPR"
+      "technologies": ["Azure Foundry", "Azure Container Apps", "Cognitive Search", "Python", "RAG"],
+      "details": "Architected, implemented and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. \n\nSolution features cloud-native architecture with Azure Foundry, Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n#### Key Achievements:\n* Deployed to 3 countries with 200+ active users\n* Scalable and reliable architecture\n* Regulatory compliance with healthcare requirements and GDPR"
     },
     {
       "id": "proj-2",
