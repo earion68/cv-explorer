@@ -41,26 +41,6 @@ export const CVDisplay: React.FC<CVDisplayProps> = ({
         </SectionContainer>
       )}
 
-      {/* Skills Section */}
-      {cv.skills && cv.skills.length > 0 && (
-        <SectionContainer title="Technical Skills">
-          <SkillsSection
-            skills={cv.skills}
-            onSkillClick={onSkillClick}
-          />
-        </SectionContainer>
-      )}
-
-      {/* Soft Skills Section */}
-      {cv.softSkills && cv.softSkills.length > 0 && (
-        <SectionContainer title="Soft Skills">
-          <SkillsSection
-            skills={cv.softSkills}
-            onSkillClick={onSkillClick}
-          />
-        </SectionContainer>
-      )}
-
       {/* Projects Section */}
       {cv.projects && cv.projects.length > 0 && (
         <SectionContainer title="Featured Projects">
@@ -88,6 +68,26 @@ export const CVDisplay: React.FC<CVDisplayProps> = ({
               />
             ))}
           </div>
+        </SectionContainer>
+      )}
+
+      {/* Skills Section */}
+      {cv.skills && cv.skills.length > 0 && (
+        <SectionContainer title="Technical Skills">
+          <SkillsSection
+            skills={cv.skills}
+            onSkillClick={onSkillClick}
+          />
+        </SectionContainer>
+      )}
+
+      {/* Soft Skills Section */}
+      {cv.softSkills && cv.softSkills.length > 0 && (
+        <SectionContainer title="Soft Skills">
+          <SkillsSection
+            skills={cv.softSkills}
+            onSkillClick={onSkillClick}
+          />
         </SectionContainer>
       )}
     </div>
