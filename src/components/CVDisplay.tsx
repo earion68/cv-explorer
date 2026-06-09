@@ -58,7 +58,7 @@ export const CVDisplay: React.FC<CVDisplayProps> = ({
 
       {/* Education Section */}
       {cv.education && cv.education.length > 0 && (
-        <SectionContainer title="Education">
+        <SectionContainer title="Education & Certifications">
           <div className="education-list">
             {cv.education.map((edu) => (
               <EducationCard
