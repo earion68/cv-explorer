@@ -95,21 +95,21 @@
     {
       "id": "skill-1",
       "name": "Databricks",
-      "category": "Data Platform",
+      "category": "Data Platforms",
       "proficiency": 3,
-      "details": "Proficient in Databricks, including Adaptive Query Execution (AQE), Auto-loader for incremental ingestion, and Delta Live Tables (DLT) for production-grade data pipelines. Experience designing and implementing medallion architectures on Databricks."
+      "details": "Proficient in Databricks, including DABs deliveries, Auto-loader for incremental ingestion, and Delta Live Tables (DLT) for production-grade data pipelines. Experience designing and implementing medallion architectures on Databricks."
     },
     {
       "id": "skill-2",
       "name": "Snowflake",
-      "category": "Data Platform",
+      "category": "Data Platforms",
       "proficiency": 4,
       "details": "Advanced expertise in Snowflake architecture, Semantic models, data staging, and Snowflake Share for secure data sharing. Designed and implemented enterprise-scale Snowflake data warehouses."
     },
     {
       "id": "skill-3",
       "name": "SQL & Data Patterns",
-      "category": "Data Platform",
+      "category": "Data Platforms",
       "proficiency": 4,
       "details": "Expert-level SQL proficiency with best practices and standard patterns including SCD (Slowly Changing Dimensions), CDC (Change Data Capture), and optimized query design."
     },
@@ -192,10 +192,10 @@
     },
     {
       "id": "skill-10",
-      "name": "ETL & Data Integration",
-      "category": "Data Platform",
+      "name": "ETL/ELT & Data Integration",
+      "category": "Data Platforms",
       "proficiency": 4,
-      "details": "Expert in designing and implementing complex ETL pipelines using SSIS, dbt, Informatica, and Spark. Proficient in automated data mapping and transformation."
+      "details": "Expert in designing and implementing complex ETL/ELT pipelines using SSIS, dbt, Informatica, and PySpark. Proficient in automated data mapping and transformation."
     },
     {
       "id": "skill-11",
@@ -310,7 +310,7 @@
       "id": "proj-4",
       "name": "Commercial Data Hub",
       "description": "Enterprise platform based on Snowflake supporting more than 600 data sources across 60 countries and 2,000+ users integrating Veeva, SAP, and market sales.",
-      "technologies": ["Snowflake", "Snowflake Share", "Power BI", "dbt"],
+      "technologies": ["Snowflake", "AWS S3", "Power BI", "ETL/ELT"],
       "details": "Architected and implemented comprehensive Commercial data hub for global organization supporting 60 countries. Integrated Veeva CRM, SAP sales, market data, and territory assignments. Platform serves as trusted data foundation for 2,000+ users.\n\n#### Business Impact:\n* Multi-country data harmonization\n* Federated data sharing\n* Self-service analytics\n* Territory management"
     },
     {
