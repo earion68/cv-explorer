@@ -26,7 +26,7 @@
         "Created LLM-assisted code generation framework accelerating teams by 60%",
         "Lead technical teams of up to 15 developers and mentored junior architects towards upskilling and career growth"
       ],
-      "technologies": ["Databricks", "Snowflake", "Azure OpenAI", "Python", "dbt", "Power BI", "Tableau", "GitLab CI/CD", "Docker", "Azure"]
+      "technologies": ["Databricks", "Snowflake", "Azure OpenAI", "Python", "ETL/ELT", "Power BI", "Tableau", "GitLab CI/CD", "Docker", "Azure"]
     },
     {
       "id": "exp-2",
@@ -42,7 +42,7 @@
         "Shaped the CI/CD pipeline and enforced DevOps best practices across multiple projects, improving deployment reliability and reducing manual errors",
         "Designed and implemented data quality checks and cross-country harmonization solutions for global healthcare clients, ensuring data consistency and compliance and reducing data issues by 60%"
       ],
-      "technologies": ["SQL Server", "Snowflake", "Python", "dbt", "Power BI", "Tableau"]
+      "technologies": ["SQL Server", "Snowflake", "Python", "ETL/ELT", "Power BI", "Tableau"]
     },
     {
       "id": "exp-3",
