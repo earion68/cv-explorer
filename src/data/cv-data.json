@@ -337,7 +337,7 @@
     },
     {
       "id": "proj-8",
-      "name": "Personal homelab & self-hosting",
+      "name": "Homelab & self-hosting",
       "link": "https://github.com/earion68/lyra",
       "description": "Personal homelab and self-hosting infrastructure for learning, experimentation, hosting production (family) services and hosting personal projects.",
       "technologies": ["Docker", "Linux", "OIDC", "CI/CD", "Python", "Windows Server" ],
