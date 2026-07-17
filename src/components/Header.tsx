@@ -1,7 +1,7 @@
 import React from 'react';
 import Markdown from 'react-markdown';
 import type { CVData } from '../types/cv';
-import pdfUrl from '../assets/CV_Thomas_CHARBON_light.pdf?url';
+import pdfUrl from '../assets/CV_Thomas_CHARBON.pdf?url';
 import '../styles/Header.css';
 
 interface HeaderProps {
