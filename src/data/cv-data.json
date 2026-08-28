@@ -15,16 +15,17 @@
       "company": "IQVIA - Basel, Switzerland",
       "position": "Solution Architect - Engagement Manager",
       "startDate": "2022-10",
-      "endDate": null,
-      "isCurrent": true,
-      "summary": "Designing and delivering enterprise data architecture and GenAI solutions for global healthcare clients across 60+ countries with 2,000+ users, leading 15+ developers and mentoring junior architects.",
-      "details": "Led high-impact technical initiatives including enterprise-scale data platforms, GenAI solutions, and team mentorship:\n\n* GenAI Medical Chatbot: End-to-end technical solution design using Azure OpenAI (gpt-5.1) for 3 countries and 200+ healthcare professionals, featuring cloud-native architecture with Azure Foundry, Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n* Accelerators Marketplace: Designed LLM-assisted code generation templates, LLM gateways, Docker hosting, and GitLab CI/CD pipeline accelerating team delivery by 80%.\n\n* Data Management Engineering Tool: Implemented comprehensive Python/React-based tool handling data profiling, schema generation, integrity checks, multi-stack ingestion pipelines, metadata & lineage tracking, and GenAI exploration, reducing project delivery time by 60%.\n\n* Commercial Data Hub: Architected fully integrated reporting platform for Salesforce Effectiveness (Veeva CRM, SAP, Market sales) supporting 60 countries, multiple sales lines, and 2,000+ data consumers with trusted data foundation.\n\n* Mentored junior architects and led technical teams of up to 15 developers.",
+      "endDate": "2026-07-31",
+      "isCurrent": false,
+      "summary": "Designed and delivered enterprise data architecture and GenAI solutions for global healthcare clients across 60+ countries with 2,000+ users, leading 15+ developers and mentored junior architects.",
+      "details": "Led high-impact technical initiatives including enterprise-scale data platforms, GenAI solutions, and team mentorship:\n\n* GenAI Medical Chatbot: End-to-end technical solution design using Azure OpenAI (gpt-5.1) for 3 countries and 200+ healthcare professionals, featuring cloud-native architecture with Azure Foundry, Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n* Accelerators Marketplace: Designed LLM-assisted code generation templates, LLM gateways, Docker hosting, and GitLab CI/CD pipeline accelerating team delivery by 80%.\n\n* Data Management Engineering Tool: Implemented comprehensive Python/React-based tool handling data profiling, schema generation, integrity checks, multi-stack ingestion pipelines, metadata & lineage tracking, and GenAI exploration, in order to reduce project delivery time.\n\n* Commercial Data Hub: Architected fully integrated reporting platform for Salesforce Effectiveness (Veeva CRM, SAP, Market sales) supporting 60 countries, multiple sales lines, and 2,000+ data consumers with trusted data foundation.\n\n* Designed and implemented a complex multi-tenant to single-tenant migration on Snowflake: consolidated three regional data platforms into one global tenant, redesigned and redirected ELT pipelines, and set up continuous automated validation between source and target tenants.\n\n* Mentored junior architects and led technical teams of up to 15 developers.",
       "achievements": [
         "Built Snowflake and Databricks accelerators reused in 15+ projects reducing ingestion/transformation time by ~50%",
         "Architected enterprise commercial data hub for 60 countries and 2,000+ users integrating Veeva/SAP/market sales with Snowflake Share",
         "Delivered GenAI medical chatbot for 200+ Healthcare Professionals in 3 countries using Azure OpenAI",
-        "Created LLM-assisted code generation framework accelerating teams by 60%",
-        "Lead technical teams of up to 15 developers and mentored junior architects towards upskilling and career growth"
+        "Created LLM-assisted code generation framework accelerating teams by 80%",
+        "Lead technical teams of up to 15 developers and mentored junior architects towards upskilling and career growth",
+        "Led Snowflake SQL & compute optimization initiatives, lowering monthly costs by 40%"
       ],
       "technologies": ["Databricks", "Snowflake", "Azure OpenAI", "Python", "ETL/ELT", "Power BI", "Tableau", "GitLab CI/CD", "Docker", "Azure"]
     },
@@ -40,7 +41,7 @@
       "achievements": [
         "Building a comprehensive Commercial data model and transformation accelerators that became company standards, leveraged in more than 30 projects since",
         "Shaped the CI/CD pipeline and enforced DevOps best practices across multiple projects, improving deployment reliability and reducing manual errors",
-        "Designed and implemented data quality checks and cross-country harmonization solutions for global healthcare clients, ensuring data consistency and compliance and reducing data issues by 60%"
+        "Designed and implemented reusable data quality checks frameworks and cross-country harmonization solutions for global healthcare clients, ensuring data consistency and compliance and reducing data issues by ~20%"
       ],
       "technologies": ["SQL Server", "Snowflake", "Python", "ETL/ELT", "Power BI", "Tableau"]
     },
@@ -290,7 +291,7 @@
       "name": "GenAI Medical Chatbot",
       "description": "End-to-end technical solution design for medical professionals using Azure OpenAI with RAG architecture.",
       "technologies": ["Azure Foundry", "Azure Container Apps", "Cognitive Search", "Python", "RAG"],
-      "details": "Architected, implemented and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. \n\nSolution features cloud-native architecture with Azure Foundry, Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n#### Key Achievements:\n* Deployed to 3 countries with 200+ active users\n* Scalable and reliable architecture\n* Regulatory compliance with healthcare requirements and GDPR"
+      "details": "Architected, implemented and delivered a production-grade GenAI medical chatbot for 200+ healthcare professionals across 3 countries. \n\nSolution features cloud-native architecture with Azure Foundry, Application Gateway, Azure Container Apps, RAG with Azure Cognitive Search, and managed vnets.\n\n#### Key Achievements:\n* Deployed to 3 countries with 200+ healthcare professionals\n* Scalable and reliable architecture\n* Regulatory compliance with healthcare requirements and GDPR"
     },
     {
       "id": "proj-2",
@@ -316,7 +317,7 @@
     {
       "id": "proj-5",
       "name": "Snowflake & Databricks Accelerators",
-      "description": "Standardized data models and frameworks reused in 15+ projects, reducing time by 25%.",
+      "description": "Standardized data models and frameworks reused in 15+ projects, reducing time by ~50%.",
       "technologies": ["Snowflake", "Databricks", "dbt", "SQL"],
       "details": "Designed reusable accelerators with standardized Commercial data model and cross-country harmonization. Reduced ingestion and transformation time by ~50% across 15+ projects.\n\n#### Components:\n* Medallion architecture templates\n* Standardized data models\n* Automated harmonization\n* Comprehensive quality checks framework\n* Territory assignment and Market definition logic"
     },
@@ -359,7 +360,7 @@
       "institution": "Snowflake University",
       "degree": "Professional Certification",
       "field": "SnowPro Core",
-      "graduationDate": "2026-06",
+      "graduationDate": "2026-09",
       "details": "Preparing for the SnowPro Core certification validating expertise in Snowflake architecture, deployment, and best practices."
     },
     {
@@ -376,5 +377,5 @@
     "primaryColor": "#1e3a8a",
     "secondaryColor": "#3b82f6"
   },
-  "updatedDate": "2024-06-01"
+  "updatedDate": "2026-08-28"
 }
