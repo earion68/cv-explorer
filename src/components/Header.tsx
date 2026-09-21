@@ -2,6 +2,7 @@ import React from 'react';
 import Markdown from 'react-markdown';
 import type { CVData } from '../types/cv';
 import pdfUrl from '../assets/CV_Thomas_CHARBON.pdf?url';
+import pdfUrl_fr from '../assets/CV_Thomas_CHARBON_FR.pdf?url';
 import '../styles/Header.css';
 
 interface HeaderProps {
@@ -62,6 +63,9 @@ export const Header: React.FC<HeaderProps> = ({ cv }) => {
         </div>
         <a className="pdf-download-btn" href={pdfUrl} download="CV_Thomas_CHARBON.pdf">
           📥 Download PDF
+        </a>
+        <a className="pdf-download-btn-fr" href={pdfUrl_fr} download="CV_Thomas_CHARBON.pdf">
+          📥 Télécharger PDF
         </a>
       </div>
     </header>
