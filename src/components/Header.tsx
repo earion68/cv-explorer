@@ -18,7 +18,7 @@ export const Header: React.FC<HeaderProps> = ({ cv }) => {
         </div>
         <div className="header-content">
           <h1 className="header-name">{cv.fullName}</h1>
-          <p className="header-title">{cv.title}</p>
+          <p className="header-title"><Markdown>{cv.title}</Markdown></p>
           {cv.summary && (
             <div className="header-summary">
               <Markdown>{cv.summary}</Markdown>
@@ -64,7 +64,7 @@ export const Header: React.FC<HeaderProps> = ({ cv }) => {
         <a className="pdf-download-btn" href={pdfUrl} download="CV_Thomas_CHARBON.pdf">
           📥 Download PDF
         </a>
-        <a className="pdf-download-btn-fr" href={pdfUrl_fr} download="CV_Thomas_CHARBON.pdf">
+        <a className="pdf-download-btn" href={pdfUrl_fr} download="CV_Thomas_CHARBON.pdf">
           📥 Télécharger PDF
         </a>
       </div>
