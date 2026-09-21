@@ -18,7 +18,7 @@ export const Header: React.FC<HeaderProps> = ({ cv }) => {
         </div>
         <div className="header-content">
           <h1 className="header-name">{cv.fullName}</h1>
-          <p className="header-title"><Markdown>{cv.title}</Markdown></p>
+          <p className="header-title">{cv.title}</p>
           {cv.summary && (
             <div className="header-summary">
               <Markdown>{cv.summary}</Markdown>
