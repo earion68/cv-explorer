@@ -61,12 +61,14 @@ export const Header: React.FC<HeaderProps> = ({ cv }) => {
             )}
           </div>
         </div>
-        <a className="pdf-download-btn" href={pdfUrl} download="CV_Thomas_CHARBON.pdf">
-          📥 Download PDF
-        </a>
-        <a className="pdf-download-btn" href={pdfUrl_fr} download="CV_Thomas_CHARBON.pdf">
-          📥 Télécharger PDF
-        </a>
+        <div className="pdf-download-group">
+          <a className="pdf-download-btn" href={pdfUrl} download="CV_Thomas_CHARBON.pdf">
+            📥 Download PDF
+          </a>
+          <a className="pdf-download-btn" href={pdfUrl_fr} download="CV_Thomas_CHARBON.pdf">
+            📥 Télécharger PDF
+          </a>
+        </div>
       </div>
     </header>
   );
